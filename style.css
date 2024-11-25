@@ -1,0 +1,105 @@
+textarea {
+    resize: none;
+    }
+
+.title{
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 563px;
+    height: 575px;
+    outline: 1px red solid;
+    padding-left: 147px;
+    padding-top: 179px;
+
+}
+
+.button{
+    width: 216px;
+    height: 73px;
+    border-radius: 500px;
+background: rgb(250, 211, 79);
+color: rgb(255, 255, 255);
+font-family: "Apercu Arabic Pro";
+font-size: 18px;
+border-style: none;
+font-weight: 400;
+}
+
+ /* .back{
+    background-image: url(img/map.png);
+background-repeat: no-repeat;
+background-position: right top;
+position: absolute;
+background-size: 976px;
+}  */
+
+.our-team-picture-list {
+    list-style: none;
+    display: block;
+  }
+  
+  .back::before,
+  .back::after {
+    content: "";
+    width: 976px;
+    height: 976px;
+    background-size: contain;
+    border-radius: 4px;
+    background-position: ;
+  }
+  
+  .back::after {
+    background-image: url(img/map.png);
+    background-size: 932px;
+    background-repeat: no-repeat;
+  }
+  
+  .back::after {
+    display: flex;
+    background-position: center;
+    background-size: 70px;
+  }
+  
+body{
+font-family: fantasy;
+
+}
+
+.name{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 46px;
+    padding-right: 418px;
+    box-sizing: border-box;
+border: 1px solid rgb(220, 220, 220);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+
+.email{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 46px;
+    padding-right: 418px;
+    box-sizing: border-box;
+border: 1px solid rgb(220, 220, 220);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+
+.area{
+    padding-bottom: 30px;
+    padding-top: 126px;
+    padding-left: 46px;
+    box-sizing: border-box;
+border: 1px solid rgb(220, 220, 220);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+    margin-bottom: 23px;
+}
